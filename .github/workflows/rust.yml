@@ -1,0 +1,22 @@
+名字: 锈
+
+在:
+推:
+分支: [ "main" ]
+query为空pull_request:
+分支: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: 总是
+
+工作:
+建筑:
+
+    runs-on: ubuntu-latest
+
+步骤:
+    - 用途: actions/checkout@v4
+    - 名字: 建筑
+跑: 货物建造-冗长
+    - 名字: 运行测试
+跑: 货物测试-冗长
